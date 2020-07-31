@@ -1,5 +1,8 @@
-#
 # SPDX-License-Identifier: GPL-3.0-or-later
+
+plasma
+konsole
+
 amd-ucode
 arch-install-scripts
 b43-fwcutter
