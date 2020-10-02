@@ -24,7 +24,6 @@ exfatprogs
 f2fs-tools
 fsarchiver
 gnu-netcat
-gpm
 gptfdisk
 grml-zsh-config
 haveged
@@ -38,7 +37,6 @@ jfsutils
 kitty-terminfo
 lftp
 linux
-linux-atm
 linux-firmware
 lsscsi
 lvm2
@@ -93,4 +91,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
+
+fish
+#TODO: replace with individual packages
+plasma
