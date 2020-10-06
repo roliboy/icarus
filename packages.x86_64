@@ -1,5 +1,3 @@
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
 amd-ucode
 arch-install-scripts
 b43-fwcutter
@@ -93,5 +91,8 @@ xfsprogs
 xl2tpd
 
 fish
+archstrike-keyring
+archstrike-mirrorlist
+
 #TODO: replace with individual packages
-plasma
+#plasma
