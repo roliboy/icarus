@@ -81,7 +81,6 @@ termite-terminfo
 testdisk
 usb_modeswitch
 usbutils
-vim
 vpnc
 wireless-regdb
 wireless_tools
@@ -90,9 +89,13 @@ wvdial
 xfsprogs
 xl2tpd
 
+neovim
+git
+
 fish
 archstrike-keyring
 archstrike-mirrorlist
 
 #TODO: replace with individual packages
-#plasma
+plasma
+konsole
