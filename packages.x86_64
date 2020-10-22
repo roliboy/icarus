@@ -93,9 +93,14 @@ neovim
 git
 
 fish
+
+#TODO: replace with individual packages
+#plasma
+#konsole
+
+#archstrike
 archstrike-keyring
 archstrike-mirrorlist
 
-#TODO: replace with individual packages
-plasma
-konsole
+#local
+ciphey
