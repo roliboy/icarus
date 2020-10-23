@@ -48,7 +48,7 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mtools
-nano
+#nano
 nbd
 ndisc6
 nfs-utils
@@ -95,12 +95,13 @@ git
 fish
 
 #TODO: replace with individual packages
-#plasma
-#konsole
+plasma
+konsole
 
 #archstrike
 archstrike-keyring
 archstrike-mirrorlist
 
 #local
-ciphey
+icarus-wallpapers
+#ciphey
