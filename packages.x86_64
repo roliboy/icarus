@@ -1,7 +1,10 @@
+base
+
 amd-ucode
+intel-ucode
+
 arch-install-scripts
 b43-fwcutter
-base
 bind-tools
 broadcom-wl
 btrfs-progs
@@ -23,10 +26,8 @@ f2fs-tools
 fsarchiver
 gnu-netcat
 gptfdisk
-grml-zsh-config
 haveged
 hdparm
-intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
@@ -48,12 +49,10 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mtools
-#nano
 nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 nvme-cli
 openconnect
@@ -89,6 +88,8 @@ wvdial
 xfsprogs
 xl2tpd
 
+nmap
+
 neovim
 git
 
@@ -97,11 +98,15 @@ fish
 #TODO: replace with individual packages
 plasma
 konsole
+falkon
+
 
 #archstrike
 archstrike-keyring
 archstrike-mirrorlist
 
 #local
-icarus-wallpapers
+icarus-theme
+otf-nerd-fonts-fira-code
+kwin-scripts-krohnkite-git
 #ciphey

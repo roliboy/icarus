@@ -27,52 +27,37 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][15]
+[Containments][2][Applets][1]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.pager
 
-[Containments][2][Applets][16]
+[Containments][2][Applets][2]
 immutability=1
-plugin=org.kde.plasma.showdesktop
+plugin=org.kde.plasma.taskmanager
+
+[Containments][2][Applets][2][Configuration][General]
+launchers=
 
 [Containments][2][Applets][3]
 immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=100
-
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
-
-[Containments][2][Applets][3][Configuration][Shortcuts]
-global=Alt+F1
+plugin=org.kde.plasma.kickerdash
 
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][4]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=org.kde.plasma.systemtray
+
+[Containments][2][Applets][4][Configuration]
+SystrayContainmentId=7
 
 [Containments][2][Applets][5]
 immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][6]
-immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][2][Applets][6][Configuration]
-PreloadWeight=55
-SystrayContainmentId=7
-
-[Containments][2][ConfigDialog]
-DialogHeight=84
-DialogWidth=1920
+plugin=org.kde.plasma.digitalclock
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;15;16
+AppletOrder=1;2;3;4;15;16
 
 [Containments][7]
 activityId=
@@ -118,6 +103,3 @@ plugin=org.kde.plasma.clipboard
 [Containments][7][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
 knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
-
-[ScreenMapping]
-itemsOnDisabledScreens=
