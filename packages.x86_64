@@ -91,6 +91,15 @@ xl2tpd
 nmap
 
 neovim
+vim-airline
+vim-airline-themes
+vim-nerdtree
+vim-nerdcommenter
+#local
+vim-gruvbox-community
+vim-airline-gruvbox-git
+vim-visual-multi
+
 git
 
 fish
