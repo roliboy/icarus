@@ -6,3 +6,6 @@ update color scheme
 add vim keybinding alternatives for shortcuts
 fish config
 fish aliases
+install vim plugins without vim as dependency
+    asp export ...
+    rebase /vim/vimfiles to /nvim/runtime

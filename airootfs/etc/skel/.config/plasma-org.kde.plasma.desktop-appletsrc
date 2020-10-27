@@ -56,8 +56,11 @@ SystrayContainmentId=7
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][2][Applets][5][Configuration][Appearance]
+showDate=false
+
 [Containments][2][General]
-AppletOrder=1;2;3;4;15;16
+AppletOrder=1;2;3;4;5
 
 [Containments][7]
 activityId=

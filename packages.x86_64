@@ -8,7 +8,6 @@ b43-fwcutter
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
 crda
 darkhttpd
 ddrescue
@@ -42,7 +41,6 @@ lvm2
 lynx
 man-db
 man-pages
-mc
 mdadm
 memtest86+
 mkinitcpio
@@ -90,6 +88,8 @@ xl2tpd
 
 nmap
 
+pwndbg
+
 neovim
 vim-airline
 vim-airline-themes
@@ -108,8 +108,8 @@ fish
 plasma
 konsole
 falkon
-#spectacle
-#dolphin
+spectacle
+dolphin
 
 
 #archstrike
@@ -120,4 +120,4 @@ archstrike-mirrorlist
 icarus-theme
 otf-nerd-fonts-fira-code
 kwin-scripts-krohnkite-git
-#ciphey
+ciphey
