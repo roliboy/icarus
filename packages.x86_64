@@ -91,21 +91,50 @@ nmap
 pwndbg
 
 neovim
-vim-airline
-vim-airline-themes
-vim-nerdtree
-vim-nerdcommenter
 #local
-vim-gruvbox-community
-vim-airline-gruvbox-git
-vim-visual-multi
+neovim-airline
+neovim-airline-themes
+neovim-nerdtree
+neovim-nerdcommenter
+neovim-gruvbox
+neovim-airline-gruvbox
+neovim-visual-multi
 
 git
 
 fish
 
-#TODO: replace with individual packages
-plasma
+
+#pulseaudio-bluetooth
+
+bluedevil
+breeze-gtk
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+khotkeys
+kinfocenter
+kscreen
+kwayland-integration
+kwrited
+plasma-browser-integration
+plasma-desktop
+plasma-disks
+plasma-nm
+plasma-pa
+plasma-thunderbolt
+plasma-vault #not too usefull
+plasma-workspace
+plasma-workspace-wallpapers
+powerdevil
+sddm-kcm
+xdg-desktop-portal-kde #not sure what this does
+
+
+#local
+icarus-theme
+kwin-krohnkite
+
 konsole
 falkon
 spectacle
@@ -117,7 +146,5 @@ archstrike-keyring
 archstrike-mirrorlist
 
 #local
-icarus-theme
 otf-nerd-fonts-fira-code
-kwin-scripts-krohnkite-git
 ciphey
