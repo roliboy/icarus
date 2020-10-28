@@ -1,60 +1,68 @@
+#CORE
 base
+
+linux
+linux-firmware
 
 amd-ucode
 intel-ucode
 
-arch-install-scripts
+sudo
+
+#DRIVERS
 b43-fwcutter
-bind-tools
 broadcom-wl
-btrfs-progs
+ipw2100-fw
+ipw2200-fw
+
 crda
-darkhttpd
+
+bind
+arch-install-scripts
+kitty-terminfo
+rxvt-unicode-terminfo
+termite-terminfo
+
+dhcpcd
+iwd
+wireless-regdb
+wireless_tools
+haveged
+
+btrfs-progs
+dosfstools
+exfatprogs
+f2fs-tools
+jfsutils
+mdadm
+mtools
+nbd
+nfs-utils
+nilfs-utils
+ntfs-3g
+reiserfsprogs
+
 ddrescue
 dhclient
-dhcpcd
-diffutils
 dmraid
 dnsmasq
-dosfstools
 edk2-shell
 efibootmgr
 ethtool
-exfatprogs
-f2fs-tools
 fsarchiver
-gnu-netcat
 gptfdisk
-haveged
 hdparm
-ipw2100-fw
-ipw2200-fw
-irssi
-iwd
-jfsutils
-kitty-terminfo
+sdparm
 lftp
-linux
-linux-firmware
 lsscsi
 lvm2
-lynx
-man-db
-man-pages
-mdadm
 memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mtools
-nbd
 ndisc6
-nfs-utils
-nilfs-utils
-ntfs-3g
 nvme-cli
 openconnect
-openssh
 openvpn
 partclone
 parted
@@ -62,33 +70,36 @@ partimage
 ppp
 pptpclient
 reflector
-reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
-sdparm
 sg3_utils
 smartmontools
-sudo
 syslinux
 systemd-resolvconf
 tcpdump
 terminus-font
-termite-terminfo
 testdisk
 usb_modeswitch
 usbutils
 vpnc
-wireless-regdb
-wireless_tools
 wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
 
+#irssi
+#lynx
+
+openssh
 nmap
+gnu-netcat
 
 pwndbg
+
+man-db
+man-pages
+
+bat
 
 neovim
 #local
@@ -102,8 +113,8 @@ neovim-visual-multi
 
 git
 
+fzf
 fish
-
 
 #pulseaudio-bluetooth
 
@@ -123,12 +134,14 @@ plasma-disks
 plasma-nm
 plasma-pa
 plasma-thunderbolt
-plasma-vault #not too usefull
+#not too usefull
+plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 powerdevil
 sddm-kcm
-xdg-desktop-portal-kde #not sure what this does
+#not sure what this does
+xdg-desktop-portal-kde
 
 
 #local
@@ -148,3 +161,26 @@ archstrike-mirrorlist
 #local
 otf-nerd-fonts-fira-code
 ciphey
+
+#hashcat
+#hydra
+#john
+#metasploit
+#pwntools
+#ropgadget
+#audacity
+#exiftool
+#binwalk
+#wireshark
+#radare cutter
+#pwndbg
+#nmap
+#ghidra decompiler for cutter
+#burpsuite
+#checksec
+#qemu?
+#z
+#htop/bashtop
+#tldr
+#exa
+
