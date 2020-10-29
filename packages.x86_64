@@ -90,16 +90,13 @@ xl2tpd
 #irssi
 #lynx
 
-openssh
-nmap
-gnu-netcat
-
-pwndbg
-
 man-db
 man-pages
+tldr
 
 bat
+exa
+fd
 
 neovim
 #local
@@ -110,6 +107,7 @@ neovim-nerdcommenter
 neovim-gruvbox
 neovim-airline-gruvbox
 neovim-visual-multi
+neovim-fzf
 
 git
 
@@ -146,6 +144,7 @@ xdg-desktop-portal-kde
 
 #local
 icarus-theme
+otf-nerd-fonts-fira-code
 kwin-krohnkite
 
 konsole
@@ -153,34 +152,44 @@ falkon
 spectacle
 dolphin
 
-
 #archstrike
 archstrike-keyring
 archstrike-mirrorlist
 
 #local
-otf-nerd-fonts-fira-code
 ciphey
 
+strace
+ltrace
+ropgadget
+checksec
+perl-image-exiftool
+binwalk
+pwndbg
+
+openssh
+nmap
+gnu-netcat
+
+#wireshark-qt
+radare2-cutter
+r2ghidra-dec
+
+htop
+bashtop
+neofetch
+#p7zip
+#tcc
+#other compilers
+#wordlists
 #hashcat
 #hydra
 #john
 #metasploit
 #pwntools
-#ropgadget
 #audacity
-#exiftool
-#binwalk
-#wireshark
-#radare cutter
-#pwndbg
-#nmap
 #ghidra decompiler for cutter
 #burpsuite
-#checksec
 #qemu?
 #z
 #htop/bashtop
-#tldr
-#exa
-

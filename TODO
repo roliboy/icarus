@@ -4,6 +4,7 @@ add Meta+Shift+N variations for moving windows around desktops
 add tool list to documentation
 update color scheme
 add vim keybinding alternatives for shortcuts
+vim cofig
 fish config
 fish aliases
     export shell variables
