@@ -9,3 +9,5 @@ fish config
 fish aliases
     export shell variables
     replace cat with bat and ls with exa
+sddm splash screen
+add 32bit libc (lib32-glibc)

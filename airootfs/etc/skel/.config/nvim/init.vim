@@ -1,3 +1,5 @@
+set nocompatible
+
 "call plug#begin('~/.vim/plugged')
 "Plug 'vim-crystal/vim-crystal'
 "Plug 'vim-airline/vim-airline'
@@ -7,7 +9,9 @@
 "
 "Plug 'ntpeters/vim-better-whitespace'
 "Plug 'junegunn/fzf.vim'
-"
+"Plug 'dracula/vim'
+"Plug 'uiiaoo/java-syntax.vim'
+"Plug 'sheerun/vim-polyglot'
 ""colorschemes
 "Plug 'NLKNguyen/papercolor-theme'
 "Plug 'AlessandroYorba/Alduin'
@@ -16,12 +20,11 @@
 "
 "Plug 'mg979/vim-visual-multi'
 "
+""Plug 'junegunn/fzf.vim'
 "
 "call plug#end()
 
-colorscheme gruvbox
-let $BAT_THEME = 'gruvbox'
-"let g:airline_theme = 'badwolf'
+colorscheme dracula
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 0
 
@@ -35,7 +38,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-"autocmd FileType crystal set tabstop=2 | set shiftwidth=2 | set expandtab
+autocmd FileType crystal set tabstop=2 | set shiftwidth=2 | set expandtab
 "autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 let g:VM_maps = {}
@@ -52,7 +55,7 @@ let mapleader = "/"
 nnoremap <silent> <leader><leader> :Files<CR>
 "inoremap <silent> <leader><leader> <ESC>:Files<CR>
 
-nnoremap <silent> <leader>' :terminal<CR>i
+nnoremap <silent> <leader>' :terminal<CR>imake && make run_repl<CR>
 tnoremap <silent> <leader>' <C-d><CR><CR>
 "inoremap <silent> ~ <ESC>:terminal<CR>i
 "nnoremap <C-S-tab> :bprevious<CR>

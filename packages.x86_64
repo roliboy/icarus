@@ -104,8 +104,9 @@ neovim-airline
 neovim-airline-themes
 neovim-nerdtree
 neovim-nerdcommenter
-neovim-gruvbox
-neovim-airline-gruvbox
+neovim-dracula
+#neovim-gruvbox
+#neovim-airline-gruvbox
 neovim-visual-multi
 neovim-fzf
 
@@ -147,16 +148,16 @@ icarus-theme
 otf-nerd-fonts-fira-code
 kwin-krohnkite
 
+ungoogled-chromium
+
 konsole
 falkon
 spectacle
 dolphin
 
-#archstrike
 archstrike-keyring
 archstrike-mirrorlist
 
-#local
 ciphey
 
 strace
@@ -175,11 +176,17 @@ gnu-netcat
 radare2-cutter
 r2ghidra-dec
 
+okteta
+hexedit
+
+p7zip
+
 htop
 bashtop
 neofetch
-#p7zip
-#tcc
+
+tcc
+
 #other compilers
 #wordlists
 #hashcat
@@ -192,4 +199,5 @@ neofetch
 #burpsuite
 #qemu?
 #z
-#htop/bashtop
+
+#lib32-glibc
