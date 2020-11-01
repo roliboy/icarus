@@ -1,10 +1,13 @@
 [Desktops]
-Id_1=2c8a34a6-e994-47f0-9f1c-ae5708be7fd9
-Id_2=9b37d6ad-935a-4b20-b027-1f714a9eabf3
-Id_3=33766ed7-9ac2-4e40-9226-7fb461784929
-Id_4=031fa7a5-4329-485d-8610-693d85a0f06d
+Id_1=icarus-desktop-1
+Id_2=icarus-desktop-2
+Id_3=icarus-desktop-3
+Id_4=icarus-desktop-4
 Number=4
 Rows=1
+
+[Effect-DesktopGrid]
+LayoutMode=2
 
 [Plugins]
 krohnkiteEnabled=true

@@ -11,3 +11,4 @@ fish aliases
     replace cat with bat and ls with exa
 sddm splash screen
 add 32bit libc (lib32-glibc)
+edit plasma-org.kde.plasma.desktop-appletsrc

@@ -50,7 +50,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][4][Configuration]
-SystrayContainmentId=7
+SystrayContainmentId=6
 
 [Containments][2][Applets][5]
 immutability=1
@@ -62,7 +62,7 @@ showDate=false
 [Containments][2][General]
 AppletOrder=1;2;3;4;5
 
-[Containments][7]
+[Containments][6]
 activityId=
 formfactor=2
 immutability=1
@@ -71,38 +71,38 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][7][Applets][10]
+[Containments][6][Applets][10]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][7][Applets][11]
+[Containments][6][Applets][11]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
-[Containments][7][Applets][12]
+[Containments][6][Applets][12]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
-[Containments][7][Applets][13]
+[Containments][6][Applets][13]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][7][Applets][14]
+[Containments][6][Applets][14]
 immutability=1
 plugin=org.kde.plasma.vault
 
-[Containments][7][Applets][17]
+[Containments][6][Applets][17]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][7][Applets][8]
+[Containments][6][Applets][8]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][7][Applets][9]
+[Containments][6][Applets][9]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][7][General]
+[Containments][6][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
 knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
