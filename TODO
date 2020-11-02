@@ -5,6 +5,7 @@ add tool list to documentation
 update color scheme
 add vim keybinding alternatives for shortcuts
 vim cofig
+install xclip + alias
 fish config
 fish aliases
     export shell variables

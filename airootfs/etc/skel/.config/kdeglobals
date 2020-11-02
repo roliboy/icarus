@@ -124,7 +124,6 @@ ForegroundVisited=157,157,153
 [General]
 AllowKDEAppsToRememberWindowPositions=false
 ColorScheme=Icarus
-Name=Breeze Dark
 shadeSortColumn=true
 widgetStyle=Breeze
 

@@ -9,6 +9,9 @@ intel-ucode
 
 sudo
 
+squashfs-tools
+udftools
+
 #DRIVERS
 b43-fwcutter
 broadcom-wl
@@ -24,7 +27,6 @@ rxvt-unicode-terminfo
 termite-terminfo
 
 dhcpcd
-iwd
 wireless-regdb
 wireless_tools
 haveged
@@ -148,7 +150,10 @@ icarus-theme
 otf-nerd-fonts-fira-code
 kwin-krohnkite
 
-ungoogled-chromium
+#ungoogled-chromium
+firefox
+firefox-ublock-origin
+firefox-dark-reader
 
 konsole
 falkon
