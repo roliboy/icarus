@@ -1,0 +1,13 @@
+[Unit]
+Description=Set timezone based on ip geolocation and enable NTP
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/sh -c '/usr/bin/timedatectl set-timezone "$(curl -s https://ipapi.co/timezone)"'
+ExecStart=/bin/sh -c '/usr/bin/timedatectl set-ntp true'
+
+[Install]
+WantedBy=multi-user.target

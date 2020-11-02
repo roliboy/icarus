@@ -26,7 +26,8 @@ kitty-terminfo
 rxvt-unicode-terminfo
 termite-terminfo
 
-dhcpcd
+dhclient
+dnsmasq
 wireless-regdb
 wireless_tools
 haveged
@@ -45,9 +46,7 @@ ntfs-3g
 reiserfsprogs
 
 ddrescue
-dhclient
 dmraid
-dnsmasq
 edk2-shell
 efibootmgr
 ethtool
