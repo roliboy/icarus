@@ -89,7 +89,7 @@ xfsprogs
 xl2tpd
 
 #irssi
-#lynx
+lynx
 
 man-db
 man-pages
@@ -199,7 +199,6 @@ tcc
 #metasploit
 #pwntools
 #audacity
-#ghidra decompiler for cutter
 #burpsuite
 #qemu?
 #z

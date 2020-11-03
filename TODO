@@ -13,3 +13,5 @@ fish aliases
 sddm splash screen
 add 32bit libc (lib32-glibc)
 edit plasma-org.kde.plasma.desktop-appletsrc
+add tlp
+website
