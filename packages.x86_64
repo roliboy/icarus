@@ -88,6 +88,9 @@ wvdial
 xfsprogs
 xl2tpd
 
+archstrike-keyring
+archstrike-mirrorlist
+
 #irssi
 lynx
 
@@ -159,8 +162,6 @@ falkon
 spectacle
 dolphin
 
-archstrike-keyring
-archstrike-mirrorlist
 
 ciphey
 

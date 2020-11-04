@@ -13,49 +13,71 @@ shortcuts below
 ## Included applications
 
 htop
+
 bashtop
+
 neofetch
 
 bat
+
 fd
+
 fzf
+
 exa
 
 git
+
 fish + fzf + dracula (keyboard shortcuts below)
 
 tldr
+
 man-db
+
 man-pages
 
 gdb + pwndbg
+
 radare2 and cutter with r2ghidra-dec
 
 openssh
+
 nmap
+
 netcat
 
 okteta
+
 hexedit
 
 ltrace
+
 strace
+
 binwalk
+
 checksec
+
 ropgadget
 
 ciphey (custom)
+
 perl-image-exiftool
 
 konsole + fira-code-nerd-font
+
 neovim + airline + fzf + nerdtree + nerdcommenter + visual_multi + dracula
 
 dolphin
+
 falkon
+
 firefox + dark-reader + ublock-origin
+
 lynx
 
 p7zip
+
 tcc
 
 ## Keyboard shortcuts
@@ -73,6 +95,7 @@ Removed accessibility features like a screen reader and support for braille TTYs
 - removed brltty package
 - removed livecd-sounds package
 - removed espeakup package
+
 Replaced systemd-networkd and systemd-resolved with NetworkManager
 - removed resolv.conf
 - removed dhcpcd
@@ -82,23 +105,43 @@ Replaced systemd-networkd and systemd-resolved with NetworkManager
 - systemd-resolved systemd units replaced with networkmanager
 - systemd-networkd-wait-online.service replaced with NetworkManager-wait-online.service
 - removed systemd-networkd.socket
+
 Removed iwd, wireless connections are managed by networkmanager
+
 Automatically sets timezone based on ip geolocation
+
 Removed PXE mkinitcpio hooks
+
+Removed PXE boot entries
+
 Increased COW space (2GB on UEFI)
+
 Pacman keyring is populated with archstrike keys at boot
+
 Zsh has been replaced with fish
+
 Removed choose-mirror.service systemd unit which allowed selecting a pacman mirror from the kernel parametes
+
 Added archstrike and multilib repositories to pacman.conf
+
 Replaced vim with neovim
+
 Replaced bind-tools with bind
+
 Removed agetty autologin systemd unit
+
 Removed darkhttpd
+
 Removed clonezilla
+
 Removed diffutils
+
 Removed gpm
+
 Removed linux-atm
+
 Removed alsa-utils
+
 
 ## Build instructions
 
@@ -106,7 +149,6 @@ Install archiso
 
 ```bash
 sudo pacman -S archiso
-
 ```
 
 Clone this repository
