@@ -1,0 +1,67 @@
+#~angui.navbar.str rgb:ff282a36
+ec b0x00 rgb:6272a4
+ec b0x7f rgb:44475a
+ec b0xff rgb:f8f8f2
+ec bin rgb:8be9fd
+ec btext rgb:8be9fd
+ec call rgb:ff79c6
+ec cjmp rgb:50fa7b
+ec cmp rgb:8be9fd
+ec comment rgb:8be9fd
+ec creg rgb:ff5555
+ec crypto rgb:8be9fd
+ec flag rgb:8be9fd
+ec fline rgb:8be9fd
+ec floc rgb:8be9fd
+ec flow rgb:50fa7b
+ec flow2 rgb:f8f8f2
+ec fname rgb:50fa7b
+ec func_var rgb:8be9fd
+ec func_var_addr rgb:f1fa8c
+ec func_var_type rgb:ff79c6
+ec graph.diff.match rgb:44475a
+ec graph.diff.new rgb:ff5555
+ec graph.diff.unknown rgb:bd93f9
+ec graph.diff.unmatch rgb:f1fa8c
+ec graph.false rgb:ff79c6
+ec graph.true rgb:50fa7b
+ec graph.trufae rgb:8be9fd
+#~gui.alt_background rgb:ff282a36
+#~gui.background rgb:ff21222c
+#~gui.border rgb:ff44475a
+#~gui.breakpoint_background rgb:ffff5555
+ec gui.cflow rgb:ffb86c
+#~gui.dataoffset rgb:fff8f8f2
+#~gui.disass_selected rgb:ff282a36
+#~gui.imports rgb:ff8be9fd
+#~gui.main rgb:ff50fa7b
+#~gui.navbar.code rgb:ff50fa7b
+#~gui.navbar.empty rgb:ff44475a
+#~gui.navbar.err rgb:ff8be9fd
+#~gui.navbar.pc rgb:ff8be9fd
+#~gui.navbar.seek rgb:ffff5555
+#~gui.navbar.sym rgb:ffffb86c
+#~gui.overview.border rgb:528be9fd
+#~gui.overview.fill rgb:4ff8f8f2
+#~gui.overview.node rgb:ff44475a
+ec help rgb:f1fa8c
+#~highlightPC rgb:ffff5555
+ec input rgb:44475a
+ec jmp rgb:50fa7b
+#~lineHighlight rgb:8644475a
+ec math rgb:8be9fd
+ec mov rgb:f8f8f2
+ec nop rgb:bd93f9
+ec num rgb:8be9fd
+ec offset rgb:6272a4
+ec other rgb:8be9fd
+ec pop rgb:8be9fd
+ec push rgb:8be9fd
+ec reg rgb:f8f8f2
+ec ret rgb:ff79c6
+ec swi rgb:ff79c6
+ec trap rgb:ff5555
+ec ucall rgb:8be9fd
+ec ujmp rgb:50fa7b
+ec usrcmt rgb:ff5555
+#~wordHighlight rgb:ff44475a
