@@ -1,4 +1,3 @@
-#CORE
 base
 
 linux
@@ -7,7 +6,6 @@ linux-firmware
 amd-ucode
 intel-ucode
 
-sudo
 
 squashfs-tools
 udftools
@@ -88,29 +86,42 @@ wvdial
 xfsprogs
 xl2tpd
 
+#new in releng 50
+fatresize
+gpart
+tmux
+
 archstrike-keyring
 archstrike-mirrorlist
+
+sudo
 
 #irssi
 lynx
 
 man-db
 man-pages
-tldr
 
 bat
 exa
 fd
+procs
+sd
+dust
+ripgrep
+tokei
+hyperfine
+bottom
+tealdeer
+bandwhich
+zoxide
 
 neovim
-#local
 neovim-airline
 neovim-airline-themes
 neovim-nerdtree
 neovim-nerdcommenter
 neovim-dracula
-#neovim-gruvbox
-#neovim-airline-gruvbox
 neovim-visual-multi
 neovim-fzf
 
@@ -156,9 +167,11 @@ kwin-krohnkite
 firefox
 firefox-ublock-origin
 firefox-dark-reader
+firefox-plasma-integration
+
+tor-browser
 
 konsole
-falkon
 spectacle
 dolphin
 
@@ -187,7 +200,6 @@ hexedit
 p7zip
 
 htop
-bashtop
 neofetch
 
 tcc

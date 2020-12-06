@@ -1,8 +1,8 @@
+remove reflector
 configure keyboard shortcuts for multi-monitor setup
 add keyboard shortcuts to documentation
 add Meta+Shift+N variations for moving windows around desktops
 add tool list to documentation
-update color scheme
 add vim keybinding alternatives for shortcuts
 vim cofig
 install xclip + alias
@@ -15,5 +15,6 @@ add 32bit libc (lib32-glibc)
 edit plasma-org.kde.plasma.desktop-appletsrc
 add tlp
 website
-change syslinux colors
 optimize firefox profile
+update cutter color scheme
+update konsole color scheme
