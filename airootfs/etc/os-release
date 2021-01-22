@@ -1,0 +1,10 @@
+NAME="icarus"
+PRETTY_NAME="icarus"
+ID=icarus
+BUILD_ID="2021-01-22"
+ANSI_COLOR="38;2;255;121;198"
+HOME_URL="https://www.archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://bugs.archlinux.org/"
+LOGO=icarus
