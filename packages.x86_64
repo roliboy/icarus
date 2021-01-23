@@ -6,30 +6,9 @@ linux-firmware
 amd-ucode
 intel-ucode
 
-
+#filesystem drivers or something
 squashfs-tools
 udftools
-
-#DRIVERS
-b43-fwcutter
-broadcom-wl
-ipw2100-fw
-ipw2200-fw
-
-crda
-
-bind
-arch-install-scripts
-kitty-terminfo
-rxvt-unicode-terminfo
-termite-terminfo
-
-dhclient
-dnsmasq
-wireless-regdb
-wireless_tools
-haveged
-
 btrfs-progs
 dosfstools
 exfatprogs
@@ -42,6 +21,27 @@ nfs-utils
 nilfs-utils
 ntfs-3g
 reiserfsprogs
+
+#drivers
+b43-fwcutter
+broadcom-wl
+ipw2100-fw
+ipw2200-fw
+
+haveged
+
+bind
+crda
+dhclient
+dnsmasq
+wireless-regdb
+wireless_tools
+
+#but why?
+#arch-install-scripts
+#kitty-terminfo
+#rxvt-unicode-terminfo
+#termite-terminfo
 
 ddrescue
 dmraid
@@ -85,48 +85,42 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-
-#new in releng 50
 fatresize
 gpart
-tmux
-
-archstrike-keyring
-archstrike-mirrorlist
 
 sudo
 
 #irssi
-lynx
+#lynx
 
 man-db
 man-pages
 
-bat
-exa
-fd
-procs
-sd
-dust
-ripgrep
-tokei
-hyperfine
-bottom
-tealdeer
-bandwhich
-zoxide
+#bat
+#exa
+#fd
+#procs
+#sd
+#dust
+#ripgrep
+#tokei
+#hyperfine
+#bottom
+#tealdeer
+#bandwhich
+#zoxide
 #bpython
 
 #impacket
 
-neovim
-neovim-airline
-neovim-airline-themes
-neovim-nerdtree
-neovim-nerdcommenter
-neovim-dracula
-neovim-visual-multi
-neovim-fzf
+#neovim
+#neovim-airline
+#neovim-airline-themes
+#neovim-nerdtree
+#neovim-nerdcommenter
+#neovim-dracula
+#neovim-visual-multi
+#neovim-fzf
 
 git
 
@@ -151,8 +145,6 @@ plasma-disks
 plasma-nm
 plasma-pa
 plasma-thunderbolt
-#not too usefull
-plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 powerdevil
@@ -160,53 +152,36 @@ sddm-kcm
 #not sure what this does
 xdg-desktop-portal-kde
 
-
-#local
-icarus-theme
-otf-nerd-fonts-fira-code
-kwin-krohnkite
-
-#ungoogled-chromium
-firefox
-firefox-ublock-origin
-firefox-dark-reader
-firefox-plasma-integration
-
-tor-browser
-
 konsole
 spectacle
 dolphin
 
 
-ciphey
+#ciphey
 
-strace
-ltrace
-ropgadget
-checksec
-perl-image-exiftool
-binwalk
-pwndbg
+#strace
+#ltrace
+#ropgadget
+#checksec
+#perl-image-exiftool
+#binwalk
+#pwndbg
 
-openssh
-nmap
-gnu-netcat
+#openssh
+#nmap
+#gnu-netcat
 
 #wireshark-qt
-radare2-cutter
-r2ghidra-dec
+#r2cutter
+#r2ghidra
 
-okteta
-hexedit
+#okteta
+#hexedit
 
-p7zip
-
-htop
-neofetch
-
-tcc
-
+#p7zip
+#htop
+#neofetch
+#tcc
 #other compilers
 #wordlists
 #hashcat
@@ -220,3 +195,30 @@ tcc
 #z
 
 #lib32-glibc
+
+
+
+###########
+#  local  #
+###########
+
+#tor-browser
+
+#actually pulled from chaotic aur because i'm too lazy to compile locally
+ungoogled-chromium
+
+chromium-darkreader
+chromium-ublock-origin
+
+otf-nerd-fonts-fira-code
+kwin-krohnkite
+icarus-theme
+
+
+
+################
+#  archstrike  #
+################
+
+archstrike-keyring
+archstrike-mirrorlist
