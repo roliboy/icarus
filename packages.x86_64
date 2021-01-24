@@ -37,18 +37,10 @@ dnsmasq
 wireless-regdb
 wireless_tools
 
-#but why?
-#arch-install-scripts
-#kitty-terminfo
-#rxvt-unicode-terminfo
-#termite-terminfo
-
-ddrescue
 dmraid
 edk2-shell
 efibootmgr
 ethtool
-fsarchiver
 gptfdisk
 hdparm
 sdparm
@@ -76,7 +68,6 @@ smartmontools
 syslinux
 systemd-resolvconf
 tcpdump
-terminus-font
 testdisk
 usb_modeswitch
 usbutils
@@ -96,20 +87,59 @@ sudo
 man-db
 man-pages
 
-#bat
-#exa
-#fd
-#procs
-#sd
-#dust
-#ripgrep
-#tokei
-#hyperfine
-#bottom
-#tealdeer
-#bandwhich
-#zoxide
-#bpython
+############################
+#  command line utilities  #
+############################
+
+#cat replacement with syntax highlighting
+bat
+
+#ls replacement with colored output
+exa
+
+#find replacement
+fd
+
+#local
+#du replacement
+dust
+
+#grep replacement
+ripgrep
+
+#utility for counting lines of code
+tokei
+
+#command line benchmarking tool
+hyperfine
+
+#local
+#system monitor
+bottom
+
+#local
+#man replacement
+tealdeer
+
+#process network utilization in real time
+bandwhich
+
+#local
+#cd replacement
+zoxide
+
+#python repl with autocomplete
+bpython
+
+#local
+#ps replacement
+procs
+
+#sed replacement
+sd
+
+
+
 
 #impacket
 
