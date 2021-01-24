@@ -12,73 +12,7 @@ shortcuts below
 
 ## Included applications
 
-htop
-
-bashtop
-
-neofetch
-
-bat
-
-fd
-
-fzf
-
-exa
-
-git
-
-fish + fzf + dracula (keyboard shortcuts below)
-
-tldr
-
-man-db
-
-man-pages
-
-gdb + pwndbg
-
-radare2 and cutter with r2ghidra-dec
-
-openssh
-
-nmap
-
-netcat
-
-okteta
-
-hexedit
-
-ltrace
-
-strace
-
-binwalk
-
-checksec
-
-ropgadget
-
-ciphey (custom)
-
-perl-image-exiftool
-
-konsole + fira-code-nerd-font
-
-neovim + airline + fzf + nerdtree + nerdcommenter + visual_multi + dracula
-
-dolphin
-
-falkon
-
-firefox + dark-reader + ublock-origin
-
-lynx
-
-p7zip
-
-tcc
+TODO
 
 ## Keyboard shortcuts
 
@@ -129,6 +63,7 @@ TODO
 - Removed ddrescue
 - Removed fsarchiver
 - Removed terminus-font
+- Removed memtest86+
 
 
 ## Build instructions

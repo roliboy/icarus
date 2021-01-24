@@ -1,10 +1,24 @@
+##########
+#  core  #
+##########
+
+#base arch linux packages
 base
 
+#kernel
 linux
+
+#device drivers
 linux-firmware
 
+#microcode patch for amd cpus
 amd-ucode
+
+#microcode patch for intel cpus
 intel-ucode
+
+#run commands with superuser privileges
+sudo
 
 #filesystem drivers or something
 squashfs-tools
@@ -47,7 +61,6 @@ sdparm
 lftp
 lsscsi
 lvm2
-memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -79,13 +92,6 @@ xl2tpd
 fatresize
 gpart
 
-sudo
-
-#irssi
-#lynx
-
-man-db
-man-pages
 
 ############################
 #  command line utilities  #
@@ -117,8 +123,14 @@ hyperfine
 #system monitor
 bottom
 
+#utility for reading man pges
+man-db
+
+#linux man pages
+man-pages
+
 #local
-#man replacement
+#man alternative
 tealdeer
 
 #process network utilization in real time
@@ -138,12 +150,128 @@ procs
 #sed replacement
 sd
 
+#fuzzy finder
+fzf
+
+#version control
+git
+
+#shell
+fish
+
+#########################
+#  desktop environment  #
+#########################
+
+#kde plasma desktop environment
+plasma-desktop
+
+#breeze theme for gtk
+breeze-gtk
+
+#gtk configurator for kde
+kde-gtk-config
+
+#addons for plasma
+kdeplasma-addons
+
+#monitor gama settings
+kgamma5
+
+#kde hotkeys
+khotkeys
+
+#kde information center
+kinfocenter
+
+#kde screen management
+kscreen
+
+#soyland
+kwayland-integration
+
+#wall message daemon
+kwrited
+
+#browser integration
+plasma-browser-integration
+
+#disk monitor
+plasma-disks
+
+#networkmanager integration
+plasma-nm
+
+#pulseaudio integration
+plasma-pa
+
+#thunderbolt integration
+plasma-thunderbolt
+
+#plasma workspace
+plasma-workspace
+
+#TODO: delete?
+#wallpapers
+plasma-workspace-wallpapers
+
+#power consumption settings manager
+powerdevil
+
+#bluetooth integration for kde
+bluedevil
+
+#kde config module for sddm
+sddm-kcm
+
+#flatpak something something
+xdg-desktop-portal-kde
+
+#tor browser
+tor-browser
+
+#actually pulled from chaotic aur because i'm too lazy to compile locally
+#ungoogled chromium
+ungoogled-chromium
+
+#global dark mode extension for chromium
+chromium-darkreader
+
+#adblocker extension for chromium
+chromium-ublock-origin
+
+#nerd font with ligatures
+otf-nerd-fonts-fira-code
+
+#tiling window script
+kwin-krohnkite
+
+#custom theme
+icarus-theme
+
+#screenshot tool
+spectacle
+
+#file explorer
+dolphin
+
+#terminal emulator
+konsole
+
+#bluetooth speaker / headphone
+pulseaudio-bluetooth
 
 
+#############
+#  editors  #
+#############
 
-#impacket
+#open source build of visual studio code
+code
 
-#neovim
+#vim fork
+neovim
+
 #neovim-airline
 #neovim-airline-themes
 #neovim-nerdtree
@@ -152,62 +280,66 @@ sd
 #neovim-visual-multi
 #neovim-fzf
 
-git
 
-fzf
-fish
+###############
+#  reversing  #
+###############
 
-#pulseaudio-bluetooth
+#trace library calls
+ltrace
 
-bluedevil
-breeze-gtk
-kde-gtk-config
-kdeplasma-addons
-kgamma5
-khotkeys
-kinfocenter
-kscreen
-kwayland-integration
-kwrited
-plasma-browser-integration
-plasma-desktop
-plasma-disks
-plasma-nm
-plasma-pa
-plasma-thunderbolt
-plasma-workspace
-plasma-workspace-wallpapers
-powerdevil
-sddm-kcm
-#not sure what this does
-xdg-desktop-portal-kde
+#trace system calls
+strace
 
-konsole
-spectacle
-dolphin
+#search binaries for embedded files
+binwalk
+
+#gdb extension
+pwndbg
+
+#search gadgets in binaries
+ropgadget
+
+#check binary for security features
+checksec
+
+#gui for radare
+r2cutter
+
+#ghidra decompiler for radare
+r2ghidra
+
+###################
+#  steganography  #
+###################
+
+#read and modify file exif data
+perl-image-exiftool
+
+#automated decryption tool
+ciphey
+
+#############
+#  network  #
+#############
+
+#network discovery
+nmap
+
+#ssh protocol client
+openssh
+
+#network piping
+gnu-netcat
+
+#network traffic analyzer
+wireshark-qt
 
 
-#ciphey
-
-#strace
-#ltrace
-#ropgadget
-#checksec
-#perl-image-exiftool
-#binwalk
-#pwndbg
-
-#openssh
-#nmap
-#gnu-netcat
-
-#wireshark-qt
-#r2cutter
-#r2ghidra
-
+#irssi
+#lynx
 #okteta
 #hexedit
-
 #p7zip
 #htop
 #neofetch
@@ -223,26 +355,8 @@ dolphin
 #burpsuite
 #qemu?
 #z
-
+#impacket
 #lib32-glibc
-
-
-
-###########
-#  local  #
-###########
-
-#tor-browser
-
-#actually pulled from chaotic aur because i'm too lazy to compile locally
-ungoogled-chromium
-
-chromium-darkreader
-chromium-ublock-origin
-
-otf-nerd-fonts-fira-code
-kwin-krohnkite
-icarus-theme
 
 
 
