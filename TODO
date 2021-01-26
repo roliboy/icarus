@@ -1,20 +1,14 @@
+colorscheme for tor browser
+colorscheme for vscode
+categories for tools/applications in kde launcher
+wireshank color scheme
 remove reflector
 configure keyboard shortcuts for multi-monitor setup
 add keyboard shortcuts to documentation
+add shell abbreviations to documentation
 add Meta+Shift+N variations for moving windows around desktops
 add tool list to documentation
 add vim keybinding alternatives for shortcuts
-vim cofig
 install xclip + alias
-fish config
-fish aliases
-    export shell variables
-    replace cat with bat and ls with exa
-sddm splash screen
-add 32bit libc (lib32-glibc)
-edit plasma-org.kde.plasma.desktop-appletsrc
 add tlp
 website
-optimize firefox profile
-update cutter color scheme
-update konsole color scheme

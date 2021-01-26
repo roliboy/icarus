@@ -230,7 +230,6 @@ xdg-desktop-portal-kde
 #tor browser
 tor-browser
 
-#actually pulled from chaotic aur because i'm too lazy to compile locally
 #ungoogled chromium
 ungoogled-chromium
 
@@ -266,6 +265,9 @@ pulseaudio-bluetooth
 #  editors  #
 #############
 
+#lightweight text editor
+kate
+
 #open source build of visual studio code
 code
 
@@ -281,9 +283,9 @@ neovim
 #neovim-fzf
 
 
-###############
-#  reversing  #
-###############
+##########################
+#  binary/reversing/pwn  #
+##########################
 
 #trace library calls
 ltrace
@@ -309,9 +311,9 @@ r2cutter
 #ghidra decompiler for radare
 r2ghidra
 
-###################
-#  steganography  #
-###################
+#############################
+#  steganography/forensics  #
+#############################
 
 #read and modify file exif data
 perl-image-exiftool
@@ -319,9 +321,9 @@ perl-image-exiftool
 #automated decryption tool
 ciphey
 
-#############
-#  network  #
-#############
+#####################
+#  network/pentest  #
+#####################
 
 #network discovery
 nmap
@@ -334,6 +336,16 @@ gnu-netcat
 
 #network traffic analyzer
 wireshark-qt
+
+#password list
+rockyou
+
+#directory list
+dirbuster-wordlists
+
+###################
+#  miscellaneous  #
+###################
 
 
 #irssi

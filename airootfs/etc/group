@@ -2,4 +2,5 @@ root:x:0:root
 adm:x:4:icarus
 wheel:x:10:icarus
 uucp:x:14:icarus
+wireshark:x:150:icarus
 icarus:x:1000:
