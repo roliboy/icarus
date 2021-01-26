@@ -64,6 +64,7 @@ TODO
 - Removed fsarchiver
 - Removed terminus-font
 - Removed memtest86+
+- Removed lftp
 
 
 ## Build instructions

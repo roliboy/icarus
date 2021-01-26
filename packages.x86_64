@@ -17,85 +17,227 @@ amd-ucode
 #microcode patch for intel cpus
 intel-ucode
 
-#run commands with superuser privileges
-sudo
 
-#filesystem drivers or something
+
+##################################
+#  filesystem drivers and tools  #
+##################################
+
+#read-only compressed filesystem
 squashfs-tools
-udftools
-btrfs-progs
-dosfstools
-exfatprogs
-f2fs-tools
-jfsutils
-mdadm
-mtools
-nbd
-nfs-utils
-nilfs-utils
-ntfs-3g
-reiserfsprogs
 
-#drivers
+#udf filesystem and dvd/cd-rw drives
+#udftools
+
+#btrfs filesystem utilities
+#btrfs-progs
+
+#dos filesystem utilities
+#dosfstools
+
+#exfat utilities and driver
+exfatprogs
+
+#flash-friendly file system tools
+#f2fs-tools
+
+#jfs filesystem utilities
+#jfsutils
+
+#software raid
+#mdadm
+
+#ms-dos disk utilities
+#mtools
+
+#network block device
+#nbd
+
+#network filesystem
+#nfs-utils
+
+#log-structured file system
+#nilfs-utils
+
+#ntfs filesystem drivers
+ntfs-3g
+
+#reiserfs
+#reiserfsprogs
+
+#xfs filesystem utilities
+#xfsprogs
+
+#device mapper raid interface
+#dmraid
+
+
+
+########################################
+#  wireless drivers and network tools  #
+########################################
+
+#firmware extractor
 b43-fwcutter
+
+#broadcom wireless driver
 broadcom-wl
+
+#intel centrino drivers
 ipw2100-fw
+
+#intel pro wireless 2200bg drivers
 ipw2200-fw
 
+
+
+#################################
+#  system daemons and services  #
+#################################
+
+#entropy harvester
 haveged
 
-bind
-crda
+#dhcp client
 dhclient
+
+#:thinking_face:
+#dns
+bind
+
+#dns forwarder and dhcp server
 dnsmasq
+
+#central regulatory domain agent for wireless networks
+crda
+
+#central regulatory domain database
 wireless-regdb
+
+#wireless extension tools
 wireless_tools
 
-dmraid
+
+
+#############################
+#  currently uncategorized  #
+#############################
+
+#uefi shell
 edk2-shell
+
+#efi boot manager tools
 efibootmgr
+
+#network controller utility
 ethtool
+
+#partitioning tool for gpt
 gptfdisk
+
+#ide device controller utility
 hdparm
+
+#scsi device controller utility
 sdparm
-lftp
-lsscsi
-lvm2
+
+#scsi device enumerator
+#lsscsi
+
+#logical volume manager utilities
+#lvm2
+
+#initramfs image creation utility
 mkinitcpio
+
+#mkinitcpio hooks for archiso
 mkinitcpio-archiso
-mkinitcpio-nfs-utils
-ndisc6
+
+#mkinitcpio nfs root support
+#mkinitcpio-nfs-utils
+
+#ipv6 networking utilities
+#ndisc6
+
+#nvm express tools
 nvme-cli
-openconnect
+
+#cisco anyconnect vpn
+#openconnect
+
+#vpn client
 openvpn
-partclone
-parted
-partimage
-ppp
-pptpclient
-reflector
-rp-pppoe
-rsync
+
+#save and restore blocks on a partition
+#partclone
+
+#create and resize partitions
+#parted
+
+#save partitions to image files
+#partimage
+
+#point to point for dial up networking
+#ppp
+
+#point ti point tunelling
+#pptpclient
+
+#point to point over ethernet
+#rp-pppoe
+
+#scsi utilities
 sg3_utils
+
+#monitor smart ata and scsi drives
 smartmontools
+
+#boot loader collection supporting fat, ext2/3/4 and btrfs
 syslinux
+
+#resolvconf replacement
 systemd-resolvconf
-tcpdump
-testdisk
+
+#controll switchable usb devices
 usb_modeswitch
+
+#usb tools
 usbutils
-vpnc
+
+#vpn client for cisco3000 vpn
+#vpnc
+
+#wpa wireless negotiation
 wpa_supplicant
+
+#dialer to connect to the internet
 wvdial
-xfsprogs
+
+#layer 2 tunneling protocol
 xl2tpd
+
+#resize fat filesystems
 fatresize
+
+#partition table rescue tool
 gpart
 
+#automatic pacman mirrorlist downloader
+reflector
 
-############################
-#  command line utilities  #
-############################
+#remote and local file copying tool
+rsync
+
+
+
+
+
+####################################
+#  generic command line utilities  #
+####################################
+
+#run commands with superuser privileges
+sudo
 
 #cat replacement with syntax highlighting
 bat
@@ -153,11 +295,16 @@ sd
 #fuzzy finder
 fzf
 
+#file archiver
+p7zip
+
 #version control
 git
 
 #shell
 fish
+
+
 
 #########################
 #  desktop environment  #
@@ -261,6 +408,7 @@ konsole
 pulseaudio-bluetooth
 
 
+
 #############
 #  editors  #
 #############
@@ -283,6 +431,7 @@ neovim
 #neovim-fzf
 
 
+
 ##########################
 #  binary/reversing/pwn  #
 ##########################
@@ -302,6 +451,9 @@ pwndbg
 #search gadgets in binaries
 ropgadget
 
+#python library for writing exploits
+python-pwntools
+
 #check binary for security features
 checksec
 
@@ -310,6 +462,8 @@ r2cutter
 
 #ghidra decompiler for radare
 r2ghidra
+
+
 
 #############################
 #  steganography/forensics  #
@@ -320,6 +474,14 @@ perl-image-exiftool
 
 #automated decryption tool
 ciphey
+
+#undelete partitions and recover files
+testdisk
+
+#memory forensics framework
+volatility
+
+
 
 #####################
 #  network/pentest  #
@@ -334,6 +496,9 @@ openssh
 #network piping
 gnu-netcat
 
+#packet analyzer
+tcpdump
+
 #network traffic analyzer
 wireshark-qt
 
@@ -343,33 +508,59 @@ rockyou
 #directory list
 dirbuster-wordlists
 
+#directory enumeraion tool
+gobuster
+
+#password cracker
+john
+
+#network login cracker
+hydra
+
+#penetration testing framework
+metasploit
+
+
+
+
+############################
+#  compilers/interpreters  #
+############################
+
+#fast c compiler
+tcc
+
+
+
+
 ###################
 #  miscellaneous  #
 ###################
 
+#machine emulator and virtualizer
+qemu
+
+#additional architectures for qemu
+#qemu-arch-extra
+
+#binary hex editor
+hexedit
+
+#hex editor gui
+okteta
 
 #irssi
 #lynx
-#okteta
-#hexedit
-#p7zip
 #htop
 #neofetch
-#tcc
-#other compilers
-#wordlists
 #hashcat
-#hydra
-#john
-#metasploit
-#pwntools
 #audacity
 #burpsuite
-#qemu?
 #z
 #impacket
 #lib32-glibc
-
+#ftp client
+#lftp
 
 
 ################
