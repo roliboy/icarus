@@ -1,18 +1,88 @@
-# Icarus
+<div align="center">
+<p>
+    <img width="256" src="images/icarus-logo.png">
+</p>
 
-Custom archiso profile for CTF players
+<!-- <h1>CTF distribution</h1> -->
+<h1>Custom archiso profile for CTF players</h1>
+
+<!--
+[link1](https://#) |
+[link2](https://#) |
+[link3](https://#) |
+[link4](https://#)
+-->
+
+</div>
+
+## Included applications and tools
+
+
+### binary/reversing/pwn
+
+- pwndbg
+- r2cutter with ghidra decompiler
+- checksec
+- ltrace and strace
+- pwntools
+
+### steganography/forensics
+
+- exiftool
+- binwalk
+- ciphey [currently broken kek]
+- testdisk
+- volatility
+
+### network/pentest
+
+- nmap
+- netcat
+- wireshark
+- tcpdump
+- gobuster
+- john
+- hydra
+- metasploit
+- rockyou and dirbuster wordlists
+
+### command line utilities
+
+- bat
+- exa
+- fd
+- dust
+- ripgrep
+- tokei
+- hyperfine
+- bottom
+- tealdeer
+- bandwhich
+- zoxide
+- bpython
+- procs
+- sd
+- fzf
 
 ## Desktop environment
-KDE + kwin-krohnkite
-dracula inspired colors
-live user paswordless sudo
-shortcuts below
 
-## Archstrike
+KDE with krohnkite tiling script and multiple virtual desktops
 
-## Included applications
+- konsole
+- dolphin
 
-TODO
+### browsers
+
+- ungoogled chromium with darkreader and ublock origin
+- tor browser
+
+### editors
+
+- visual studio code
+- kate
+- neovim with some plugins
+
+
 
 ## Keyboard shortcuts
 
@@ -42,7 +112,7 @@ TODO
 - Automatically sets timezone based on ip geolocation
 - Removed PXE mkinitcpio hooks
 - Removed PXE boot entries
-- Increased COW space (2GB on UEFI)
+- Increased COW space size to 2GB on both BIOS and UEFI
 - Pacman keyring is populated with archstrike keys at boot
 - Zsh has been replaced with fish
 - Removed choose-mirror.service systemd unit which allowed selecting a pacman mirror from the kernel parametes
@@ -50,29 +120,21 @@ TODO
 - Replaced vim with neovim
 - Replaced bind-tools with bind
 - Removed agetty autologin systemd unit
-- Removed darkhttpd
-- Removed clonezilla
-- Removed diffutils
-- Removed gpm
-- Removed linux-atm
-- Removed alsa-utils
-- Removed arch-install-scripts
-- Removed kitty-terminfo
-- Removed rxvt-unicode-terminfo
-- Removed termite-terminfo
-- Removed ddrescue
-- Removed fsarchiver
-- Removed terminus-font
-- Removed memtest86+
-- Removed lftp
+- Removed [darkhttpd, clonezilla, diffutils, gpm, linux-atm, alsa-utils, arch-install-scripts, kitty-terminfo, rxvt-unicode-terminfo, termite-terminfo, ddrescue, fsarchiver, terminus-font, memtest86+, lftp]
 
 
 ## Build instructions
 
-Install archiso
+- Set up the custom [icarus package repository](https://github.com/roliboy/icarus-pkgbuilds)
 
 ```bash
-sudo pacman -S archiso
+git clone https://github.com/roliboy/icarus-pkgbuilds.git
+```
+
+Build the packages
+
+```bash
+make
 ```
 
 Clone this repository
@@ -81,8 +143,16 @@ Clone this repository
 git clone https://github.com/roliboy/icarus.git
 ```
 
+Install archiso
+
+```bash
+sudo pacman -S archiso
+```
+
 Build the image
 
 ```bash
-sudo mkarchiso -v icarus/
+sudo make
 ```
+
+<!-- ## icarus vs kali and parrot -->

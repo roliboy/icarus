@@ -374,6 +374,7 @@ sddm-kcm
 #flatpak something something
 xdg-desktop-portal-kde
 
+#TODO: customize
 #tor browser
 tor-browser
 
@@ -442,9 +443,6 @@ ltrace
 #trace system calls
 strace
 
-#search binaries for embedded files
-binwalk
-
 #gdb extension
 pwndbg
 
@@ -477,6 +475,9 @@ ciphey
 
 #undelete partitions and recover files
 testdisk
+
+#search binaries for embedded files
+binwalk
 
 #memory forensics framework
 volatility
@@ -517,6 +518,7 @@ john
 #network login cracker
 hydra
 
+#TODO: customize
 #penetration testing framework
 metasploit
 
