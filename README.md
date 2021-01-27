@@ -3,92 +3,22 @@
     <img width="256" src="images/icarus-logo.png">
 </p>
 
-<!-- <h1>CTF distribution</h1> -->
-<h1>Custom archiso profile for CTF players</h1>
+<h1>Archiso profile for CTF players</h1>
 
-<!--
-[link1](https://#) |
-[link2](https://#) |
-[link3](https://#) |
-[link4](https://#)
--->
+[package list](doc/packages.md)
+| [keyboard shortcuts](doc/shortcuts.md)
+<!-- | [screenshot gallery](https://#) -->
+<!-- | [give me your money](https://#) -->
+
 
 </div>
 
-## Included applications and tools
 
+## but why? [WIP]
 
-### binary/reversing/pwn
+## icarus vs kali and parrot [WIP]
 
-- pwndbg
-- r2cutter with ghidra decompiler
-- checksec
-- ltrace and strace
-- pwntools
-
-### steganography/forensics
-
-- exiftool
-- binwalk
-- ciphey [currently broken kek]
-- testdisk
-- volatility
-
-### network/pentest
-
-- nmap
-- netcat
-- wireshark
-- tcpdump
-- gobuster
-- john
-- hydra
-- metasploit
-- rockyou and dirbuster wordlists
-
-### command line utilities
-
-- bat
-- exa
-- fd
-- dust
-- ripgrep
-- tokei
-- hyperfine
-- bottom
-- tealdeer
-- bandwhich
-- zoxide
-- bpython
-- procs
-- sd
-- fzf
-
-## Desktop environment
-
-KDE with krohnkite tiling script and multiple virtual desktops
-
-- konsole
-- dolphin
-
-### browsers
-
-- ungoogled chromium with darkreader and ublock origin
-- tor browser
-
-### editors
-
-- visual studio code
-- kate
-- neovim with some plugins
-
-
-
-## Keyboard shortcuts
-
-TODO
-
-## Technical details
+## Technical details [WIP]
 
 ### Major differences between icarus and releng
 
