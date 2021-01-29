@@ -36,7 +36,7 @@ squashfs-tools
 #dosfstools
 
 #exfat utilities and driver
-exfatprogs
+#exfatprogs
 
 #flash-friendly file system tools
 #f2fs-tools
@@ -60,7 +60,7 @@ exfatprogs
 #nilfs-utils
 
 #ntfs filesystem drivers
-ntfs-3g
+#ntfs-3g
 
 #reiserfs
 #reiserfsprogs
@@ -100,10 +100,6 @@ haveged
 
 #dhcp client
 dhclient
-
-#:thinking_face:
-#dns
-bind
 
 #dns forwarder and dhcp server
 dnsmasq
@@ -160,7 +156,7 @@ mkinitcpio-archiso
 #ndisc6
 
 #nvm express tools
-nvme-cli
+#nvme-cli
 
 #cisco anyconnect vpn
 #openconnect
@@ -217,13 +213,13 @@ wvdial
 xl2tpd
 
 #resize fat filesystems
-fatresize
+#fatresize
 
 #partition table rescue tool
-gpart
+#gpart
 
 #automatic pacman mirrorlist downloader
-reflector
+#reflector
 
 #remote and local file copying tool
 rsync
@@ -358,10 +354,6 @@ plasma-thunderbolt
 #plasma workspace
 plasma-workspace
 
-#TODO: delete?
-#wallpapers
-plasma-workspace-wallpapers
-
 #power consumption settings manager
 powerdevil
 
@@ -423,11 +415,17 @@ code
 #vim fork
 neovim
 
-#neovim-airline
-#neovim-airline-themes
+#neovim statusbar
+neovim-airline
+
+#neovim statusbar color themes
+neovim-airline-themes
+
+#neovim dracula theme
+neovim-dracula
+
 #neovim-nerdtree
 #neovim-nerdcommenter
-#neovim-dracula
 #neovim-visual-multi
 #neovim-fzf
 
@@ -470,8 +468,8 @@ r2ghidra
 #read and modify file exif data
 perl-image-exiftool
 
-#automated decryption tool
-ciphey
+#automated decryption tool [currently broken]
+#ciphey
 
 #undelete partitions and recover files
 testdisk
