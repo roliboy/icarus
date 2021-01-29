@@ -1,20 +1,8 @@
-add gitkraken
-REMOVE EMOJI SELECTOR KEYBOARD SHORTCUT
-remove alt tab
-change krunner to mod + space
-clean up shortcuts in general
+change konsole color scheme
 colorscheme for tor browser
-colorscheme for vscode
 categories for tools/applications in kde launcher
-wireshank color scheme
-remove reflector
 audacity theme
 configure keyboard shortcuts for multi-monitor setup
-add keyboard shortcuts to documentation
-add shell abbreviations to documentation
-add Meta+Shift+N variations for moving windows around desktops
-add tool list to documentation
-add vim keybinding alternatives for shortcuts
 install xclip + alias
 add tlp
 website
