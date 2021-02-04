@@ -394,6 +394,9 @@ spectacle
 #file explorer
 dolphin
 
+#document viewer
+okular
+
 #terminal emulator
 konsole
 

@@ -9,3 +9,7 @@ clean:
 .PHONY: burn
 burn:
 	dd bs=4M if=$(wildcard out/icarus-*.iso) of=$(shell bash -c 'read -p "drive path: " drive; echo $$drive') status=progress oflag=sync
+
+.PHONY: test
+test:
+	run_archiso -u -i $(wildcard out/icarus-*.iso)
