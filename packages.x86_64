@@ -78,16 +78,16 @@ squashfs-tools
 ########################################
 
 #firmware extractor
-b43-fwcutter
+#b43-fwcutter
 
 #broadcom wireless driver
-broadcom-wl
+#broadcom-wl
 
 #intel centrino drivers
-ipw2100-fw
+#ipw2100-fw
 
 #intel pro wireless 2200bg drivers
-ipw2200-fw
+#ipw2200-fw
 
 
 
@@ -129,7 +129,7 @@ efibootmgr
 ethtool
 
 #partitioning tool for gpt
-gptfdisk
+#gptfdisk
 
 #ide device controller utility
 hdparm
@@ -238,6 +238,7 @@ sudo
 #cat replacement with syntax highlighting
 bat
 
+#TODO: custom colors and fish aliases
 #ls replacement with colored output
 exa
 
@@ -293,6 +294,9 @@ fzf
 
 #file archiver
 p7zip
+
+#zip
+#unzip
 
 #version control
 git
@@ -397,6 +401,12 @@ dolphin
 #document viewer
 okular
 
+#image editor
+krita
+
+#archiver
+ark
+
 #terminal emulator
 konsole
 
@@ -462,6 +472,9 @@ r2cutter
 #ghidra decompiler for radare
 r2ghidra
 
+#heap memory profiler/analyzer
+heaptrack
+
 
 
 #############################
@@ -481,7 +494,7 @@ testdisk
 binwalk
 
 #memory forensics framework
-volatility
+volatility3
 
 
 
@@ -509,6 +522,10 @@ rockyou
 
 #directory list
 dirbuster-wordlists
+
+#TODO: remove embedded browser
+#http/s request interceptor (and a shit load of other stuff)
+burpsuite
 
 #directory enumeraion tool
 gobuster
@@ -558,7 +575,6 @@ okteta
 #neofetch
 #hashcat
 #audacity
-#burpsuite
 #z
 #impacket
 #lib32-glibc
