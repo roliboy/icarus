@@ -289,6 +289,7 @@ procs
 #sed replacement
 sd
 
+#TODO: fish shortcuts
 #fuzzy finder
 fzf
 
@@ -367,7 +368,7 @@ bluedevil
 #kde config module for sddm
 sddm-kcm
 
-#flatpak something something
+#display server abstraction
 xdg-desktop-portal-kde
 
 #TODO: customize
@@ -493,8 +494,9 @@ testdisk
 #search binaries for embedded files
 binwalk
 
+#TODO: broken
 #memory forensics framework
-volatility3
+#volatility3
 
 
 
@@ -536,7 +538,7 @@ john
 #network login cracker
 hydra
 
-#TODO: customize
+#TODO: fish alias -q
 #penetration testing framework
 metasploit
 
