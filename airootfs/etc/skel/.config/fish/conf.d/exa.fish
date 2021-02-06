@@ -1,7 +1,4 @@
-set fish_greeting
-
-
-set -x EXA_COLORS "di=1;36:flag=4;32"
+#set -x EXA_COLORS "di=1;36:flag=4;32"
 
 #fi Normal file
 #di Directory

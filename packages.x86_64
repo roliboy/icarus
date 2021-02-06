@@ -17,6 +17,11 @@ amd-ucode
 #microcode patch for intel cpus
 intel-ucode
 
+#simulate superuser privileges
+fakeroot
+
+#manipulate binary object files
+binutils
 
 
 ##################################
@@ -25,9 +30,6 @@ intel-ucode
 
 #read-only compressed filesystem
 squashfs-tools
-
-#udf filesystem and dvd/cd-rw drives
-#udftools
 
 #btrfs filesystem utilities
 #btrfs-progs
@@ -38,38 +40,11 @@ squashfs-tools
 #exfat utilities and driver
 #exfatprogs
 
-#flash-friendly file system tools
-#f2fs-tools
-
-#jfs filesystem utilities
-#jfsutils
-
-#software raid
-#mdadm
-
 #ms-dos disk utilities
 #mtools
 
-#network block device
-#nbd
-
-#network filesystem
-#nfs-utils
-
-#log-structured file system
-#nilfs-utils
-
 #ntfs filesystem drivers
 #ntfs-3g
-
-#reiserfs
-#reiserfsprogs
-
-#xfs filesystem utilities
-#xfsprogs
-
-#device mapper raid interface
-#dmraid
 
 
 
@@ -137,50 +112,14 @@ hdparm
 #scsi device controller utility
 sdparm
 
-#scsi device enumerator
-#lsscsi
-
-#logical volume manager utilities
-#lvm2
-
 #initramfs image creation utility
 mkinitcpio
 
 #mkinitcpio hooks for archiso
 mkinitcpio-archiso
 
-#mkinitcpio nfs root support
-#mkinitcpio-nfs-utils
-
 #ipv6 networking utilities
 #ndisc6
-
-#nvm express tools
-#nvme-cli
-
-#cisco anyconnect vpn
-#openconnect
-
-#vpn client
-openvpn
-
-#save and restore blocks on a partition
-#partclone
-
-#create and resize partitions
-#parted
-
-#save partitions to image files
-#partimage
-
-#point to point for dial up networking
-#ppp
-
-#point ti point tunelling
-#pptpclient
-
-#point to point over ethernet
-#rp-pppoe
 
 #scsi utilities
 sg3_utils
@@ -200,9 +139,6 @@ usb_modeswitch
 #usb tools
 usbutils
 
-#vpn client for cisco3000 vpn
-#vpnc
-
 #wpa wireless negotiation
 wpa_supplicant
 
@@ -211,20 +147,6 @@ wvdial
 
 #layer 2 tunneling protocol
 xl2tpd
-
-#resize fat filesystems
-#fatresize
-
-#partition table rescue tool
-#gpart
-
-#automatic pacman mirrorlist downloader
-#reflector
-
-#remote and local file copying tool
-rsync
-
-
 
 
 
@@ -249,18 +171,28 @@ fd
 #du replacement
 dust
 
+#local
+#system monitor
+bottom
+
 #grep replacement
 ripgrep
+
+#python repl with autocomplete
+bpython
+
+#local
+#ps replacement
+procs
+
+#simpler sed alternative
+sd
 
 #utility for counting lines of code
 tokei
 
 #command line benchmarking tool
 hyperfine
-
-#local
-#system monitor
-bottom
 
 #utility for reading man pges
 man-db
@@ -275,20 +207,6 @@ tealdeer
 #process network utilization in real time
 bandwhich
 
-#local
-#cd replacement
-zoxide
-
-#python repl with autocomplete
-bpython
-
-#local
-#ps replacement
-procs
-
-#sed replacement
-sd
-
 #TODO: add key bindings to documentation
 #TODO: fish shortcuts
 #fuzzy finder
@@ -297,17 +215,29 @@ fzf
 #file archiver
 p7zip
 
+#archive zipfiles
 zip
+
+#unarchive zipfiles
 unzip
 
 #version control
 git
+
+#remote and local file copying tool
+rsync
+
+#vpn client
+openvpn
 
 #shell
 fish
 
 #system information
 neofetch
+
+#process information
+htop
 
 
 
@@ -402,9 +332,13 @@ spectacle
 
 #file explorer
 dolphin
+#dolphin-plugins
 
 #document viewer
 okular
+
+#disk usage information
+filelight
 
 #image editor
 krita
@@ -480,6 +414,12 @@ r2ghidra
 #heap memory profiler/analyzer
 heaptrack
 
+#machine emulator and virtualizer
+qemu
+
+#additional architectures for qemu
+#qemu-arch-extra
+
 
 
 #############################
@@ -492,6 +432,9 @@ perl-image-exiftool
 #automated decryption tool [currently broken]
 #ciphey
 
+#audio analysis
+audacity
+
 #undelete partitions and recover files
 testdisk
 
@@ -501,6 +444,12 @@ binwalk
 #TODO: broken
 #memory forensics framework
 #volatility3
+
+#binary hex editor
+hexedit
+
+#hex editor gui
+okteta
 
 
 
@@ -542,9 +491,11 @@ john
 #network login cracker
 hydra
 
-#TODO: fish alias -q
 #penetration testing framework
 metasploit
+
+#impacket
+#hashcat
 
 
 
@@ -556,36 +507,6 @@ metasploit
 #fast c compiler
 tcc
 
-
-
-
-###################
-#  miscellaneous  #
-###################
-
-#machine emulator and virtualizer
-qemu
-
-#additional architectures for qemu
-#qemu-arch-extra
-
-#binary hex editor
-hexedit
-
-#hex editor gui
-okteta
-
-#irssi
-#lynx
-#htop
-#neofetch
-#hashcat
-#audacity
-#z
-#impacket
-#lib32-glibc
-#ftp client
-#lftp
 
 
 ################

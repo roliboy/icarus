@@ -1,9 +1,13 @@
 proxy config for chromium and burpsuite certificate + remove embedded chromium from burpsuite
-gnuplot/labplot
+gnuplot/labplot/kimplot
+osu
+ktorrent
+falkon
+kde diff viewer: kompare or kdiff3
+irc client
 exa color scheme
-heaptrack
+kcachegrind
 elf dissector
-binutils and fakeroot
 change konsole color scheme
 colorscheme for tor browser
 categories for tools/applications in kde launcher
