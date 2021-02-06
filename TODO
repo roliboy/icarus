@@ -1,5 +1,7 @@
 proxy config for chromium and burpsuite certificate + remove embedded chromium from burpsuite
+plasma browser integration
 gnuplot/labplot/kimplot
+kde menu entries and groups
 osu
 ktorrent
 falkon
@@ -8,9 +10,7 @@ irc client
 exa color scheme
 kcachegrind
 elf dissector
-change konsole color scheme
 colorscheme for tor browser
-categories for tools/applications in kde launcher
 audacity theme
 configure keyboard shortcuts for multi-monitor setup
 install xclip + alias

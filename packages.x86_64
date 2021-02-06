@@ -318,6 +318,9 @@ chromium-darkreader
 #adblocker extension for chromium
 chromium-ublock-origin
 
+#desktop integration
+chromium-plasma-integration
+
 #nerd font with ligatures
 otf-nerd-fonts-fira-code
 

@@ -1,140 +1,122 @@
 {
-   "bookmark_bar":{
-      "show_on_all_tabs":false
+   "bookmark_bar": {
+      "show_on_all_tabs": false
    },
-   "default_search_provider":{
-      "synced_guid":"485bf7d3-0215-45af-87dc-538868000101"
+   "default_search_provider": {
+      "synced_guid": "485bf7d3-0215-45af-87dc-538868000101"
    },
-   "default_search_provider_data":{
-      "template_url_data":{
-         "alternate_urls":[
-
-         ],
-         "contextual_search_url":"",
-         "created_by_policy":false,
-         "created_from_play_api":false,
-         "date_created":"0",
-         "doodle_url":"",
-         "favicon_url":"https://cdn.ecosia.org/assets/images/ico/favicon.ico",
-         "id":"7",
-         "image_url":"",
-         "image_url_post_params":"",
-         "input_encodings":[
+   "default_search_provider_data": {
+      "template_url_data": {
+         "alternate_urls": [],
+         "contextual_search_url": "",
+         "created_by_policy": false,
+         "created_from_play_api": false,
+         "date_created": "0",
+         "doodle_url": "",
+         "favicon_url": "https://cdn.ecosia.org/assets/images/ico/favicon.ico",
+         "id": "7",
+         "image_url": "",
+         "image_url_post_params": "",
+         "input_encodings": [
             "UTF-8"
          ],
-         "keyword":"ecosia.org",
-         "last_modified":"0",
-         "last_visited":"0",
-         "logo_url":"",
-         "new_tab_url":"",
-         "originating_url":"",
-         "prepopulate_id":101,
-         "safe_for_autoreplace":true,
-         "search_url_post_params":"",
-         "short_name":"Ecosia",
-         "suggestions_url":"https://ac.ecosia.org/autocomplete?q={searchTerms}&type=list",
-         "suggestions_url_post_params":"",
-         "synced_guid":"485bf7d3-0215-45af-87dc-538868000101",
-         "url":"https://www.ecosia.org/search?q={searchTerms}&addon=opensearch",
-         "usage_count":0
+         "keyword": "ecosia.org",
+         "last_modified": "0",
+         "last_visited": "0",
+         "logo_url": "",
+         "new_tab_url": "",
+         "originating_url": "",
+         "prepopulate_id": 101,
+         "safe_for_autoreplace": true,
+         "search_url_post_params": "",
+         "short_name": "Ecosia",
+         "suggestions_url": "https://ac.ecosia.org/autocomplete?q={searchTerms}&type=list",
+         "suggestions_url_post_params": "",
+         "synced_guid": "485bf7d3-0215-45af-87dc-538868000101",
+         "url": "https://www.ecosia.org/search?q={searchTerms}&addon=opensearch",
+         "usage_count": 0
       }
    },
-   "devtools":{
-      "preferences":{
-         "Inspector.drawerSplitViewState":"{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
-         "InspectorView.splitViewState":"{\"vertical\":{\"size\":0}}",
-         "closeableTabs":"{\"security\":true}",
-         "currentDockState":"\"right\"",
-         "elements.styles.sidebar.width":"{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
-         "inspectorVersion":"30",
-         "releaseNoteVersionSeen":"29",
-         "uiTheme":"\"dark\"",
-         "undefined-tabOrder":"{\"Styles\":10,\"Computed\":20}"
+   "devtools": {
+      "preferences": {
+         "Inspector.drawerSplitViewState": "{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+         "InspectorView.splitViewState": "{\"vertical\":{\"size\":0}}",
+         "closeableTabs": "{\"security\":true}",
+         "currentDockState": "\"right\"",
+         "elements.styles.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+         "inspectorVersion": "30",
+         "releaseNoteVersionSeen": "29",
+         "uiTheme": "\"dark\"",
+         "undefined-tabOrder": "{\"Styles\":10,\"Computed\":20}"
       }
    },
-   "extensions":{
-      "settings":{
-         "anbkoijcojlnenmbjgndddinocakfljo":{
-            "active_permissions":{
-               "api":[
+   "extensions": {
+      "settings": {
+         "anbkoijcojlnenmbjgndddinocakfljo": {
+            "active_permissions": {
+               "api": [
                   "fontSettings",
                   "storage",
                   "tabs"
                ],
-               "explicit_host":[
+               "explicit_host": [
                   "\u003Call_urls>",
                   "chrome://favicon/*"
                ],
-               "manifest_permissions":[
-
-               ],
-               "scriptable_host":[
+               "manifest_permissions": [],
+               "scriptable_host": [
                   "\u003Call_urls>"
                ]
             },
-            "commands":{
-               "addSite":{
-                  "suggested_key":"Alt+Shift+A"
+            "commands": {
+               "addSite": {
+                  "suggested_key": "Alt+Shift+A"
                },
-               "switchEngine":{
-                  "suggested_key":""
+               "switchEngine": {
+                  "suggested_key": ""
                },
-               "toggle":{
-                  "suggested_key":"Alt+Shift+D",
-                  "was_assigned":true
+               "toggle": {
+                  "suggested_key": "Alt+Shift+D",
+                  "was_assigned": true
                }
             },
-            "content_settings":[
-
-            ],
-            "creation_flags":38,
-            "events":[
-
-            ],
-            "from_bookmark":false,
-            "from_webstore":false,
-            "granted_permissions":{
-               "api":[
+            "content_settings": [],
+            "creation_flags": 38,
+            "events": [],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "granted_permissions": {
+               "api": [
                   "fontSettings",
                   "storage",
                   "tabs"
                ],
-               "explicit_host":[
+               "explicit_host": [
                   "\u003Call_urls>",
                   "chrome://favicon/*"
                ],
-               "manifest_permissions":[
-
-               ],
-               "scriptable_host":[
+               "manifest_permissions": [],
+               "scriptable_host": [
                   "\u003Call_urls>"
                ]
             },
-            "incognito_content_settings":[
-
-            ],
-            "incognito_preferences":{
-
-            },
-            "install_time":"13255869562112518",
-            "location":4,
-            "newAllowFileAccess":true,
-            "path":"/usr/share/chromium-darkreader",
-            "preferences":{
-
-            },
-            "regular_only_preferences":{
-
-            },
-            "state":1,
-            "uninstall_url":"https://darkreader.org/goodluck/",
-            "was_installed_by_default":false,
-            "was_installed_by_oem":false,
-            "withholding_permissions":false
+            "incognito_content_settings": [],
+            "incognito_preferences": {},
+            "install_time": "13255869562112518",
+            "location": 4,
+            "newAllowFileAccess": true,
+            "path": "/usr/share/chromium-darkreader",
+            "preferences": {},
+            "regular_only_preferences": {},
+            "state": 1,
+            "uninstall_url": "https://darkreader.org/goodluck/",
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false,
+            "withholding_permissions": false
          },
-         "bkcfbinaiadfjjdaegjbfiiejldhmibh":{
-            "active_permissions":{
-               "api":[
+         "bkcfbinaiadfjjdaegjbfiiejldhmibh": {
+            "active_permissions": {
+               "api": [
                   "contextMenus",
                   "privacy",
                   "storage",
@@ -144,14 +126,12 @@
                   "webRequest",
                   "webRequestBlocking"
                ],
-               "explicit_host":[
+               "explicit_host": [
                   "\u003Call_urls>",
                   "chrome://favicon/*"
                ],
-               "manifest_permissions":[
-
-               ],
-               "scriptable_host":[
+               "manifest_permissions": [],
+               "scriptable_host": [
                   "http://*/*",
                   "https://*.fanboy.co.nz/*",
                   "https://*.github.io/*",
@@ -162,34 +142,30 @@
                   "https://github.com/*"
                ]
             },
-            "commands":{
-               "launch-element-picker":{
-                  "suggested_key":""
+            "commands": {
+               "launch-element-picker": {
+                  "suggested_key": ""
                },
-               "launch-element-zapper":{
-                  "suggested_key":""
+               "launch-element-zapper": {
+                  "suggested_key": ""
                },
-               "launch-logger":{
-                  "suggested_key":""
+               "launch-logger": {
+                  "suggested_key": ""
                },
-               "open-dashboard":{
-                  "suggested_key":""
+               "open-dashboard": {
+                  "suggested_key": ""
                },
-               "relax-blocking-mode":{
-                  "suggested_key":""
+               "relax-blocking-mode": {
+                  "suggested_key": ""
                }
             },
-            "content_settings":[
-
-            ],
-            "creation_flags":38,
-            "events":[
-
-            ],
-            "from_bookmark":false,
-            "from_webstore":false,
-            "granted_permissions":{
-               "api":[
+            "content_settings": [],
+            "creation_flags": 38,
+            "events": [],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "granted_permissions": {
+               "api": [
                   "contextMenus",
                   "privacy",
                   "storage",
@@ -199,14 +175,12 @@
                   "webRequest",
                   "webRequestBlocking"
                ],
-               "explicit_host":[
+               "explicit_host": [
                   "\u003Call_urls>",
                   "chrome://favicon/*"
                ],
-               "manifest_permissions":[
-
-               ],
-               "scriptable_host":[
+               "manifest_permissions": [],
+               "scriptable_host": [
                   "http://*/*",
                   "https://*.fanboy.co.nz/*",
                   "https://*.github.io/*",
@@ -217,38 +191,97 @@
                   "https://github.com/*"
                ]
             },
-            "incognito_content_settings":[
-
+            "incognito_content_settings": [],
+            "incognito_preferences": {},
+            "install_time": "13255869571835197",
+            "location": 4,
+            "newAllowFileAccess": true,
+            "path": "/usr/share/chromium-ublock-origin",
+            "preferences": {},
+            "regular_only_preferences": {},
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false,
+            "withholding_permissions": false
+         },
+         "cimiefiiaegbelhefglklhhakcgmhkai": {
+            "active_permissions": {
+               "api": [
+                  "contextMenus",
+                  "downloads",
+                  "downloadsInternal",
+                  "nativeMessaging",
+                  "notifications",
+                  "storage",
+                  "tabs"
+               ],
+               "explicit_host": [
+                  "<all_urls>",
+                  "chrome://favicon/*"
+               ],
+               "manifest_permissions": [],
+               "scriptable_host": [
+                  "*://*/*"
+               ]
+            },
+            "commands": {},
+            "content_settings": [],
+            "creation_flags": 38,
+            "events": [
+               "contextMenus.onClicked",
+               "downloads.onChanged",
+               "downloads.onCreated",
+               "notifications.onClicked",
+               "notifications.onClosed",
+               "storage.onChanged",
+               "tabs.onRemoved",
+               "tabs.onUpdated"
             ],
-            "incognito_preferences":{
-
+            "from_bookmark": false,
+            "from_webstore": false,
+            "granted_permissions": {
+               "api": [
+                  "contextMenus",
+                  "downloads",
+                  "downloadsInternal",
+                  "nativeMessaging",
+                  "notifications",
+                  "storage",
+                  "tabs"
+               ],
+               "explicit_host": [
+                  "<all_urls>",
+                  "chrome://favicon/*"
+               ],
+               "manifest_permissions": [],
+               "scriptable_host": [
+                  "*://*/*"
+               ]
             },
-            "install_time":"13255869571835197",
-            "location":4,
-            "newAllowFileAccess":true,
-            "path":"/usr/share/chromium-ublock-origin",
-            "preferences":{
-
-            },
-            "regular_only_preferences":{
-
-            },
-            "state":1,
-            "was_installed_by_default":false,
-            "was_installed_by_oem":false,
-            "withholding_permissions":false
+            "incognito_content_settings": [],
+            "incognito_preferences": {},
+            "install_time": "13257097901961375",
+            "location": 4,
+            "newAllowFileAccess": true,
+            "path": "/usr/share/chromium-plasma-integration",
+            "preferences": {},
+            "regular_only_preferences": {},
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false,
+            "withholding_permissions": false
          }
       },
-      "theme":{
-         "id":"",
-         "use_system":true
+      "theme": {
+         "id": "",
+         "use_system": true
       },
-      "toolbar":[
+      "toolbar": [
          "anbkoijcojlnenmbjgndddinocakfljo",
          "bkcfbinaiadfjjdaegjbfiiejldhmibh"
       ],
-      "ui":{
-         "developer_mode":true
+      "ui": {
+         "developer_mode": true
       }
    }
 }
