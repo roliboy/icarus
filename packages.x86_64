@@ -17,11 +17,6 @@ amd-ucode
 #microcode patch for intel cpus
 intel-ucode
 
-#simulate superuser privileges
-fakeroot
-
-#manipulate binary object files
-binutils
 
 
 ##################################
@@ -215,6 +210,9 @@ fzf
 #file archiver
 p7zip
 
+#command line clipboard utility
+xclip
+
 #archive zipfiles
 zip
 
@@ -238,6 +236,18 @@ neofetch
 
 #process information
 htop
+
+#tool for interpreting Makefiles
+make
+
+
+
+########################
+#  important packages  #
+########################
+
+#click the circles
+osu-lazer
 
 
 
@@ -408,6 +418,12 @@ python-pwntools
 #check binary for security features
 checksec
 
+#simulate superuser privileges
+fakeroot
+
+#manipulate binary object files
+binutils
+
 #gui for radare
 r2cutter
 
@@ -436,7 +452,7 @@ perl-image-exiftool
 #ciphey
 
 #audio analysis
-audacity
+# audacity
 
 #undelete partitions and recover files
 testdisk

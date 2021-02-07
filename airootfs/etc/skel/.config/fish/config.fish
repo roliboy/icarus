@@ -16,6 +16,7 @@ alias grep 'rg'
 alias grepb 'rg --binary'
 alias top 'btm'
 alias python 'bpython'
+alias vim 'nvim'
 alias ps 'procs --pager=disable'
 alias pst 'procs --pager=disable --tree'
 
