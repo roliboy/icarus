@@ -40,7 +40,7 @@ mute=Volume Mute,Volume Mute,Mute
 [krunner.desktop]
 RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Ctrl+Space\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Meta+Space\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [ksmserver]
 Halt Without Confirmation=none,Ctrl+Alt+Shift+PgDown,Halt Without Confirmation
@@ -293,7 +293,7 @@ previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dashboard=Meta+D,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode...
-show-on-mouse-pos=Meta+Space,none,Open Klipper at Mouse Position
+show-on-mouse-pos=Ctrl+Space,none,Open Klipper at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity

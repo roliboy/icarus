@@ -39,10 +39,12 @@
 - - systemd-networkd-wait-online.service replaced with NetworkManager-wait-online.service
 - - removed systemd-networkd.socket
 - Removed iwd, wireless connections are managed by networkmanager
+- Removed reflector
 - Automatically sets timezone based on ip geolocation
 - Removed PXE mkinitcpio hooks
 - Removed PXE boot entries
 - Increased COW space size to 2GB on both BIOS and UEFI
+- Removed cloud-init
 - Pacman keyring is populated with archstrike keys at boot
 - Zsh has been replaced with fish
 - Removed choose-mirror.service systemd unit which allowed selecting a pacman mirror from the kernel parametes
