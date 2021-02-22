@@ -1,0 +1,8 @@
+[General]
+ColorScheme=Icarus
+Name=Icarus
+shadeSortColumn=true
+widgetStyle=Breeze
+
+[Icons]
+Theme=breeze-dark
