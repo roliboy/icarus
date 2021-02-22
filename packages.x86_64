@@ -315,6 +315,9 @@ sddm-kcm
 #display server abstraction
 xdg-desktop-portal-kde
 
+#japanese fonts
+otf-ipafont
+
 #TODO: customize
 #tor browser
 tor-browser
@@ -375,7 +378,10 @@ pulseaudio-bluetooth
 kate
 
 #open source build of visual studio code
-code
+#code
+
+#vim like code alternative without electron
+onivim2
 
 #vim fork
 neovim
