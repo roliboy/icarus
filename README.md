@@ -27,10 +27,6 @@ binary, steganography, forensics, network and more
 batteries included
 ![wireshark](images/wireshark.png)
 
-### Pre-configured environment
-batteries included
-![kate](images/kate.png)
-
 ### Archstrike repository
 large collection of high quality tools
 ![archstrike](images/archstrike.png)
