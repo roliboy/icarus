@@ -1,58 +1,42 @@
 <div align="center">
 <p>
-    <img width="256" src="images/icarus-logo.png">
+    <img width="256" src="images/banner.png">
 </p>
+<h1>Linux distribution for CTF players</h1>
 
-<h1>Archiso profile for CTF players</h1>
-
-[package list](doc/packages.md)
-| [keyboard shortcuts](doc/shortcuts.md)
-<!-- | [screenshot gallery](https://#) -->
-<!-- | [give me your money](https://#) -->
-
+[project webpage](https://roliboy.ml/projects/icarus/)
+| [ISO downloads](https://roliboy.ml/projects/icarus/#download)
 
 </div>
 
+## Features
 
-## but why? [WIP]
+### Custom color themes
+unified system-wide dark theme
+![themes](images/themes.png)
 
-## icarus vs kali and parrot [WIP]
+### Automatic window tiling
+with familiar keyboard shortcuts
+![tiling](images/tiling.png)
 
-## Technical details [WIP]
+### Tools for any challenge
+binary, steganography, forensics, network and more
+![cutter](images/cutter.png)
 
-### Major differences between icarus and releng
+### Pre-configured environment
+batteries included
+![wireshark](images/wireshark.png)
 
-- Removed accessibility features like a screen reader and support for braille TTYs introduced with releng 49
-- - removed livecd-alsa-unmuter.service (sound.target.wants)
-- - removed livecd-talk.service
-- - removed archiso-x86_64-speech-linux.conf efiboot entry
-- - removed brltty package
-- - removed livecd-sounds package
-- - removed espeakup package
-- Replaced systemd-networkd and systemd-resolved with NetworkManager
-- - removed resolv.conf
-- - removed dhcpcd
-- - dhcp is now handled by networkmanager with dhclient
-- - dns is handled by networkmanager with dnsmasq
-- - systemd-networkd systemd units replaced with networkmanager
-- - systemd-resolved systemd units replaced with networkmanager
-- - systemd-networkd-wait-online.service replaced with NetworkManager-wait-online.service
-- - removed systemd-networkd.socket
-- Removed iwd, wireless connections are managed by networkmanager
-- Removed reflector
-- Automatically sets timezone based on ip geolocation
-- Removed PXE mkinitcpio hooks
-- Removed PXE boot entries
-- Increased COW space size to 2GB on both BIOS and UEFI
-- Removed cloud-init
-- Pacman keyring is populated with archstrike keys at boot
-- Zsh has been replaced with fish
-- Removed choose-mirror.service systemd unit which allowed selecting a pacman mirror from the kernel parametes
-- Added archstrike and multilib repositories to pacman.conf
-- Replaced vim with neovim
-- Replaced bind-tools with bind
-- Removed agetty autologin systemd unit
-- Removed [darkhttpd, clonezilla, diffutils, gpm, linux-atm, alsa-utils, arch-install-scripts, kitty-terminfo, rxvt-unicode-terminfo, termite-terminfo, ddrescue, fsarchiver, terminus-font, memtest86+, lftp]
+### Pre-configured environment
+batteries included
+![kate](images/kate.png)
+
+### Archstrike repository
+large collection of high quality tools
+![archstrike](images/archstrike.png)
+
+
+### Visit the project's [webpage](https://roliboy.ml/projects/icarus/) for more information and iso downloads
 
 
 ## Build instructions
@@ -63,28 +47,26 @@
 git clone https://github.com/roliboy/icarus-pkgbuilds.git
 ```
 
-Build the packages
+- Build the packages
 
 ```bash
 make
 ```
 
-Clone this repository
+- Clone this repository
 
 ```bash
 git clone https://github.com/roliboy/icarus.git
 ```
 
-Install archiso
+- Install archiso
 
 ```bash
 sudo pacman -S archiso
 ```
 
-Build the image
+- Build the image
 
 ```bash
 sudo make
 ```
-
-<!-- ## icarus vs kali and parrot -->

@@ -1,7 +1,6 @@
 proxy config for chromium and burpsuite certificate + remove embedded chromium from burpsuite
 gnuplot/labplot/kimplot
 kde menu entries and groups
-osu
 neko / matrix client
 blender?
 godot?
@@ -17,4 +16,3 @@ colorscheme for tor browser
 audacity theme
 configure keyboard shortcuts for multi-monitor setup
 add tlp
-website
